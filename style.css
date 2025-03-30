@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: #604829;
+    padding: 4.8px;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+}
+
+.cabecalho_titulo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cabecalho img {
+    height: 60px;
+    margin-left: 30px;
+}
+
+.cabecalho_textos {
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho_textos p {
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+    padding: 3px;
+    margin-left: auto;
+}
+
+.banner {
+    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem1.png');
+    background-size: cover;          
+    background-position: center;     
+    background-attachment: fixed;    
+    height: 100vh;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 85px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 220px;
+    font-family: 'Fraunces', serif;
+
+}
+
+.informacoes {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.informacoes_agrupamento {
+    margin-bottom: 0;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    line-height: 34px;
+    padding: 50px;
+}
+    
+
+.informacoes_agrupamento h1 {
+    color: #c4a47c;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+.informacoes_agrupamento p {
+    color: #666;
+    font-size: 18px;
+    font-family: Lato;
+}
+
+.faixas {
+    padding: 130px 0;
+}
+
+.f1 {
+    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.f2 {
+    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.faixas_titulo {
+    background-color: #604829;
+    margin: 0 450px;
+    padding: 6px 0;
+
+}
+
+.faixas_titulo h1 {
+    font-style: italic;
+    color: #fff;
+    font-size: 18px;
+    font-family: Fraunces;
+
+}
+
+.contatos {
+    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem4.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+ .contato_endereco {
+    background-color: #604829;
+    margin: 50px auto;
+    color: #fff;
+    font-family: Fraunces;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 850px;
+    height: 400px;
+}
+
+#contato_endereco {
+    background-color: #604829;
+    padding: 15px;
+    color:#fff;
+    font-family: Fraunces;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.horarios {
+    background-image: url('download-arquivos-do-projeto/assets/cafeteria.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: Oswald;
+}
+
+.hora_titulo {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 45px 70px 45px;
+    color: #fff;
+}
+
+
+.container_horarios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista_vertical1 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+.lista_vertical2 {
+    position: absolute;
+    top: 250px;
+    right: 400px;
+}
+
+li {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+
+.seta {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 40px !important;
+    height: 65px;
+    transition: opacity 0.6s ease !important;;
+    z-index: 1000 !important;
+    cursor: pointer !important;
+}
+
+.rodape {
+    width:100%;
+    background-color: #604829;
+    padding: 10px;
+}
+
+.rodape p {
+    color: #fff;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
