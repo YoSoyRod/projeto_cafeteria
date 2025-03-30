@@ -47,7 +47,7 @@ html, body {
 }
 
 .banner {
-    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem1.png');
+    background-image: url('img/assets/parallax-imagem1.png');
     background-size: cover;          
     background-position: center;     
     background-attachment: fixed;    
@@ -104,14 +104,14 @@ html, body {
 }
 
 .f1 {
-    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem2.jpg');
+    background-image: url('img/assets/parallax-imagem2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .f2 {
-    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem3.jpg');
+    background-image: url('img/assets/parallax-imagem3.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ html, body {
 }
 
 .contatos {
-    background-image: url('download-arquivos-do-projeto/assets/parallax-imagem4.png');
+    background-image: url('img/assets/parallax-imagem4.png');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,7 @@ iframe {
 }
 
 .horarios {
-    background-image: url('download-arquivos-do-projeto/assets/cafeteria.jpg');
+    background-image: url('img/assets/cafeteria.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -221,7 +221,7 @@ li {
     bottom: 30px !important;
     right: 40px !important;
     height: 65px;
-    transition: opacity 0.6s ease !important;;
+    transition: opacity 0.6s ease !important;
     z-index: 1000 !important;
     cursor: pointer !important;
 }
